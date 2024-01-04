@@ -15,7 +15,7 @@ jobs:
       
     - name: 🔨 Build Project
       run: |
-        npm install --force
+        npm install --legacy-peer-deps
         npm run build
         npm run dev
     
